@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Noto Serif CJK JP";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local("Noto Serif CJK JP SemiBold"), local("NotoSerifCJKjp-SemiBold"),
+       url("../fonts/NotoSerifJP-SemiBold.woff2") format("woff2"),
+       url("../fonts/NotoSerifJP-SemiBold.woff") format("woff"),
+       url("../fonts/NotoSerifJP-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("Noto Sans CJK JP Regular"), local("NotoSansCJKjp-Regular"),
+       url("../fonts/NotoSansJP-Regular.woff2") format("woff2"),
+       url("../fonts/NotoSansJP-Regular.woff") format("woff"),
+       url("../fonts/NotoSansJP-Regular.otf") format("opentype");
+}
+
+.sans {
+  font-family: "Helvetica Neue", HelveticaNeue, "Segoe UI", Arial, 
+               "Noto Sans CJK JP",
+               "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
+               "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",
+               "游ゴシック体", "游ゴシック", YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium",
+               "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-weight: normal;
+}

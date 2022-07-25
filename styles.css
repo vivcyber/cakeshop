@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: #5a4a42;
+}
+
+.txt{
+    
+    font-family: "Amiri", "Times New Roman", "Noto Serif CJK JP", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", "游明朝体", "YuMincho", "Yu Mincho", "HG明朝E", sans-serif;
+}
+.txt2{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    
+}
+.sans{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt-hand{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:16px ;
+}
+
+.txt-p{
+    font-size: 14px;
+    letter-spacing: .02em;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: justify
+}
+.txt-p2{
+    padding-top: 1rem;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 14px;
+    letter-spacing: .03em;
+    font-weight: 600;
+    line-height: 1.2rem;
+    text-align: justify
+}
+.written-title{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.brline{
+
+    border-bottom: 1px solid lightgrey;
+    
+}
+.dec-n{
+    list-style-type: none;
+}
+
+.inline{
+    display:inline-flex;
+
+}
+
+/* ----------排版的部分------------ */
+
+
+
+.paralax1 {
+    background: url(./images/bg_cake01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.paralax2 {
+    background: url(./images/bg_cake02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.paralax3 {
+    background: url(./images/bg_cake03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hei-5 {
+    height: 500px;
+}
+
+.hei-4 {
+    height: 300px;
+}
+
+.box {
+    height: 300px;
+    width: 100%;
+}
+
+
+/* ----------章節標題------------ */
+.block-chapter h3{
+    letter-spacing: .2em;
+    line-height: 1.5em;
+    padding: 1rem;
+}
+
+/* --------品質卡片------ */
+.quality-card{
+    width: 100%;
+}
+.text-title{
+   line-height: 2rem;
+   font-size: 12px;
+   width: 100%;
+   padding: 12px;
+   
+}
+.txt-catch{
+    font-size: 20px;
+    padding: 16px;
+    letter-spacing: .2em;
+   
+    
+}
+.text-body{
+    padding: 12px;
+}
+.pic-quality img{
+    width: 200px;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+/* --------------內容物------------- */
+
+
+
+.ingredient{
+    width: 100%;
+    padding: 24px; 
+    margin: auto;
+}
+
+.icon-veg img{
+    width: 33px;
+}
+.block-letter{
+    width: 100%;
+    padding-top: 1rem;
+    position: relative;
+}
+.block-letter h3{
+    text-align: left;
+}
+
+.icon > li > .txt2{
+    line-height: 32px;
+    left: 0px;
+}
+.icon{
+    position: absolute;
+    top:1rem;
+    right: 0px;
+}
+.txt-sec{
+    color:#a2958f ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: .9rem;
+    letter-spacing: .01em;
+    padding-top: 1rem;
+    
+}
+/* ---------------購物車------------- */
+.shopping-card{
+    width:100%;
+    padding: 12px; 
+    margin: auto;
+    box-sizing: border-box;
+}
+.shopping-card > .block-letter > h3{
+    font-size: 1.5rem;
+    letter-spacing: .5em;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: .5rem;
+    
+}
+.shopping-card > .block-letter > h3 > span{
+    font-size: 10px;
+    letter-spacing: .1em;
+}
+.price{
+   width: 100%;
+   position: relative;
+}
+.price p {
+    font-size: 1.2rem;
+    letter-spacing: .2em;
+}
+
+.price span{
+    font-size: 10px;
+    letter-spacing: .1rem;
+}
+.dot{
+    width: 10px;
+    height: 10px; 
+    border-radius: 50%; 
+    margin-left: .5rem;
+}
+.list-color{
+   position: absolute;
+   right: 0;
+   top: 0;
+   padding-top: .3rem
+   ;
+
+}
+.list-color li{
+    display:inline-flex;
+
+}
+.list-color > .yellow > .dot{
+    background-color: #ffe00d;
+}
+.list-color > .green > .dot{
+    background-color: #5a4a42;
+}
+.list-color > .red > .dot{
+    background-color: #f54634;
+}
+.price > .discribtion{
+    margin-top: 1rem;
+    font-size: 12px;
+    letter-spacing: .05em;
+    text-align: justify;
+    height: 72px;
+}
+.block-order{
+    margin-top: 1rem;
+    
+}
+.block-order > ul{
+    width: 100%;
+    display:inline-flex;
+    padding: 0;
+    position: relative;
+}
+.block-order > ul > li > p{
+    padding-right: .5rem;
+    font-size: 14px;
+    line-height: 2.5rem;
+}
+.block-order > ul > li > input{
+    width: 2.5rem;
+    height: 2.5rem;
+    border:1.5px solid #a2958f;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #a2958fa3;   
+}
+
+.order{
+    
+    height: 2.5rem;
+    color:white;
+    background-color:#bb8460 ;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    right: 8px;
+    
+}
+.order:hover{
+    background-color:#daa582 ; 
+}
+
+
+
+
+
+/* -------------頁面滑動-------------- */
+@media screen and(min-width:375) {
+    .container {
+        width: 375px;
+    }
+
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 15s slidy infinite;
+}
+.logo{
+    width: 64px;
+    height: 64px;
+}
+
+
+--------ansower---------
+
+/* ----------FAQ--------- */
+.faq{
+    padding-bottom: 48px;
+}
+.bgc{
+    background-color: #f5e0be;
+    padding-bottom: 48px;
+
+}
+
+.faq .lable{
+    padding: 12px 12px 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #5a4a42;
+    width: 100%;
+}
+
+.faq .lable::before{
+    content:'Q';
+    font-size: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+
+.answer{
+    position: relative;           
+    overflow: hidden;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    display: none;
+    padding: 24px;
+    
+}
+.answer p{
+    width: 80%;
+    margin: 0 auto;
+}
+.question-btn{
+    border-radius: 50%;
+    min-width: 40px;
+    height: 40px;
+    background-color: #f5e0be;
+    border: 1px solid #5a4a42;
+}
+.question-btn>p{
+    line-height: 40px;
+
+}
+.show-text .answer{
+    display: block;
+}
+  
+
+
+
+
+
+
+/* ---------footer------- */
+.footer{
+    margin-top: 48px;
+}
+.footer > img{
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
